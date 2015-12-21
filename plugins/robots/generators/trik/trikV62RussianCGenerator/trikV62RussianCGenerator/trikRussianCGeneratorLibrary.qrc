@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/russianC">
+        <file>images/uploadProgram.svg</file>
+        <file>images/generateRussianCCode.svg</file>
+        <file>images/run.png</file>
+        <file>images/stop.png</file>
+        <file>images/stopRobot.svg</file>
+        <file>images/switch-to-trik-russian-c.svg</file>
+        <file>images/uploadAndExecuteProgram.svg</file>
+    </qresource>
+</RCC>
