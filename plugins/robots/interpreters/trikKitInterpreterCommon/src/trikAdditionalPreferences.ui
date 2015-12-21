@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>322</width>
-    <height>53</height>
+    <height>79</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,6 +36,16 @@
        <widget class="QLineEdit" name="tcpServerLineEdit">
         <property name="placeholderText">
          <string>Enter robot IP-address here</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="pathToWinSCP">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Emter path to WinSCP</string>
         </property>
        </widget>
       </item>

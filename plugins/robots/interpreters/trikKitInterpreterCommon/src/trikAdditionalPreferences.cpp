@@ -37,12 +37,14 @@ TrikAdditionalPreferences::~TrikAdditionalPreferences()
 void TrikAdditionalPreferences::save()
 {
 	SettingsManager::setValue("TrikTcpServer", mUi->tcpServerLineEdit->text());
+	SettingsManager::setValue("WinScpPath", mUi->pathToWinSCP->text());
 	emit settingsChanged();
 }
 
 void TrikAdditionalPreferences::restoreSettings()
 {
 	mUi->tcpServerLineEdit->setText(SettingsManager::value("TrikTcpServer").toString());
+	mUi->pathToWinSCP->setText(SettingsManager::value("WinScpPath").toString());
 }
 
 void TrikAdditionalPreferences::onRobotModelChanged(kitBase::robotModel::RobotModelInterface * const robotModel)
